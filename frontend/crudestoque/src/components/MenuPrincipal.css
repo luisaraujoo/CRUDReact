@@ -1,0 +1,121 @@
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 1.25;
+}
+
+.edit-btn {
+  display: inline-flex;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  background-color: #742ecc;
+}
+
+.edit-btn:hover {
+  background-color: #7f4cbd;
+}
+
+/* formulário */
+
+#form-btn {
+  width: 120px;
+  margin-left: 10px;
+  background-color: #2ecc6a;
+  color: #fafafa;
+}
+
+#form-btn:hover {
+  background-color: #50d483;
+}
+
+.form-menu {
+  margin-left: 70px;
+}
+
+.form-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  width: 1130px;
+}
+
+.form-div input {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.356);
+  color: #fff;
+  border: 0;
+}
+
+.form-div select {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  background: #752ecc;
+  color: #fff;
+  border: 0;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+#btn-excluir {
+  background-color: #ad2c2c;
+}
+
+#btn-excluir:hover {
+  background-color: #af4141;
+}
+
+#btn-sair {
+  background: #752ecc;
+  color: #fafafa;
+}
+
+#btn-sair:hover {
+  background: #844fc4;
+  color: #fafafa;
+}
